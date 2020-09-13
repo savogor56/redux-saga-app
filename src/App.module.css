@@ -1,0 +1,26 @@
+main {
+  margin: 0 auto;
+  padding: 0 20%;
+  display: grid;
+  width: 90%;
+  grid-template-areas: 
+  "form form"
+  "posts fetched_posts";
+  grid-template-columns: 600px 600px;
+
+}
+
+.form {
+grid-area: form;
+padding: 15px;
+}
+
+.posts {
+grid-area: posts;
+padding: 15px;
+}
+
+.fetched_posts {
+grid-area: fetched_posts;
+padding: 15px;
+}
